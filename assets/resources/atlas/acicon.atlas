@@ -1,0 +1,55 @@
+
+acicon.png
+size: 254,117
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ac_backp
+  rotate: true
+  xy: 119, 19
+  size: 50, 57
+  orig: 56, 64
+  offset: 1, 1
+  index: -1
+ac_box
+  rotate: true
+  xy: 201, 58
+  size: 57, 51
+  orig: 59, 54
+  offset: 1, 2
+  index: -1
+ac_box1
+  rotate: false
+  xy: 119, 2
+  size: 50, 15
+  orig: 59, 20
+  offset: 3, 1
+  index: -1
+ac_gold
+  rotate: false
+  xy: 119, 71
+  size: 80, 44
+  orig: 82, 46
+  offset: 1, 1
+  index: -1
+ac_lig
+  rotate: false
+  xy: 2, 2
+  size: 115, 113
+  orig: 127, 120
+  offset: 3, 5
+  index: -1
+ac_lig1
+  rotate: false
+  xy: 196, 8
+  size: 50, 48
+  orig: 52, 50
+  offset: 1, 1
+  index: -1
+img66
+  rotate: true
+  xy: 178, 41
+  size: 28, 16
+  orig: 28, 16
+  offset: 0, 0
+  index: -1

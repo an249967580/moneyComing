@@ -1,0 +1,27 @@
+
+buttonset.png
+size: 331,262
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+srt_lng
+  rotate: false
+  xy: 2, 2
+  size: 258, 258
+  orig: 266, 260
+  offset: 1, 1
+  index: -1
+srt_lnt
+  rotate: false
+  xy: 262, 168
+  size: 67, 92
+  orig: 83, 95
+  offset: 15, 2
+  index: -1
+srt_star
+  rotate: false
+  xy: 262, 119
+  size: 48, 47
+  orig: 50, 49
+  offset: 1, 1
+  index: -1

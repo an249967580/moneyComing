@@ -1,0 +1,34 @@
+
+paly.png
+size: 122,134
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+but_play_bigliuguang
+  rotate: false
+  xy: 2, 54
+  size: 93, 48
+  orig: 95, 50
+  offset: 1, 1
+  index: -1
+but_play_dguang
+  rotate: false
+  xy: 2, 2
+  size: 118, 50
+  orig: 128, 58
+  offset: 7, 1
+  index: -1
+but_play_liuguang
+  rotate: false
+  xy: 2, 106
+  size: 79, 26
+  orig: 81, 28
+  offset: 1, 1
+  index: -1
+but_play_star1
+  rotate: false
+  xy: 83, 104
+  size: 28, 28
+  orig: 30, 30
+  offset: 1, 1
+  index: -1

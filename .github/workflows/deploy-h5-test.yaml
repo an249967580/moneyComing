@@ -1,0 +1,28 @@
+name: "[Test]Build and Deploy Cocos2d H5"
+
+on:
+  push:
+    branches:
+      - test
+    paths:
+      - 'build/web-mobile/**'
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Configure AWS CLI
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: Sync to S3
+        run: |
+          REPO_NAME=$(echo "${{ github.repository }}" | cut -d'/' -f2)
+          echo "Repository Name: $REPO_NAME"
+          aws s3 sync ./build/web-mobile s3://ebo-game-h5/${REPO_NAME}-test/ --delete

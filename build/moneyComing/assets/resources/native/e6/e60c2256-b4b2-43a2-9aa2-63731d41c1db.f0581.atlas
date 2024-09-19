@@ -1,0 +1,20 @@
+
+start.png
+size: 128,86
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+button
+  rotate: false
+  xy: 2, 43
+  size: 124, 41
+  orig: 124, 44
+  offset: 0, 3
+  index: -1
+light
+  rotate: false
+  xy: 2, 2
+  size: 122, 39
+  orig: 122, 39
+  offset: 0, 0
+  index: -1

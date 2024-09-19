@@ -1,0 +1,58 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "respin_clip",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.2166666666666666,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            136,
+            -206
+          ],
+          "motionPath": [
+            [
+              108.7,
+              -116.1,
+              209.3,
+              -109.2,
+              106.6,
+              -116.2
+            ],
+            [
+              6.3,
+              -131.6,
+              8.5,
+              -131.4,
+              -48.8,
+              -135.8
+            ]
+          ]
+        },
+        {
+          "frame": 1,
+          "value": [
+            -136.9,
+            -162.7
+          ],
+          "motionPath": []
+        },
+        {
+          "frame": 1.2166666666666666,
+          "value": [
+            -139.9,
+            -162.7
+          ],
+          "motionPath": []
+        }
+      ]
+    }
+  },
+  "events": []
+}
