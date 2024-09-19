@@ -23,7 +23,7 @@ export default class SocketIOManager extends cc.Component{
     /**
      * 测试服
      */
-    private url:string = 'ws://13.232.153.67:9502';
+    private url:string = 'ws://13.232.153.67:9502'; 
 
 
     private socket: any
